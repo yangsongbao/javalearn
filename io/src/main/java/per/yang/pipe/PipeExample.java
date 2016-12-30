@@ -1,4 +1,4 @@
-package per.yang.pipe;
+package per.yang.nio;
 
 import java.io.IOException;
 import java.io.PipedInputStream;

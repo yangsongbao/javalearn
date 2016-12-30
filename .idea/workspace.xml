@@ -2,60 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b540f1b1-311f-45d3-ba29-1738395591f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/DefaultSinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/ISinger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/main/java/AbstractClassA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/main/java/CollectionTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/main/java/list/ListTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/main/java/map/MapTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/main/java/set/SetTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/collection/src/test/java/per/yang/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exception/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nio/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/src/main/java/per/yang/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stream/src/test/java/per/yang/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/main/java/per/yang/App.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/main/java/per/yang/TicketInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/src/test/java/per/yang/AppTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/state/ThreadNEW.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/state/ThreadRUNNABLE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/state/ThreadTIMED_WAITINGandBLOCKED.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/state/ThreadWAITING.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Performance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/IUserManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/ProxyTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/UserManageProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/UserManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/UserManagerDynamicProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/UserManagerImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/target/classes/UserManagerProxy2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/target/classes/per/yang/AppConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/target/classes/per/yang/aop/Aperformance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/target/classes/per/yang/aop/Audience.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/target/classes/per/yang/aop/Performance.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reflect/target/classes/per/yang/aop/Test.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/target/classes/per/yang/AppConfig.class" afterPath="$PROJECT_DIR$/aop/target/classes/per/yang/AppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Aperformance.class" afterPath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Aperformance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Audience.class" afterPath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Audience.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Bperformance.class" afterPath="$PROJECT_DIR$/aop/target/classes/per/yang/aop/Bperformance.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/target/test-classes/AopTest.class" afterPath="$PROJECT_DIR$/aop/target/test-classes/AopTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/ThreadPool/ThreadPoolTest.class" afterPath="$PROJECT_DIR$/thread/target/classes/ThreadPool/ThreadPoolTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nio/src/main/java/per/yang/nio/PipeExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/aop.iml" afterPath="$PROJECT_DIR$/aop/aop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Aperformance.java" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Aperformance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Audience.java" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Audience.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Bperformance.java" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Bperformance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aop/src/test/java/AopTest.java" afterPath="$PROJECT_DIR$/aop/src/test/java/AopTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/io/pom.xml" afterPath="$PROJECT_DIR$/io/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javalearn.iml" afterPath="$PROJECT_DIR$/javalearn.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxy/proxy.iml" afterPath="$PROJECT_DIR$/proxy/proxy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reflect/reflect.iml" afterPath="$PROJECT_DIR$/reflect/reflect.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/thread.iml" afterPath="$PROJECT_DIR$/thread/thread.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/Performance.java" afterPath="$PROJECT_DIR$/aop/src/main/java/per/yang/aop/IPerformance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/io/src/main/java/per/yang/pipe/PipeExample.java" afterPath="$PROJECT_DIR$/io/src/main/java/per/yang/pipe/PipeExample.java" />
     </list>
     <ignored path="javalearn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,11 +58,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/io/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
               <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PipeExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nio/src/main/java/per/yang/nio/PipeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PipeExample.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/io/src/main/java/per/yang/pipe/PipeExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thread/src/main/java/muti/RunnableDemo1.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/muti/RunnableDemo.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/TestThread.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/muti/ThreadDemo.java" />
@@ -192,6 +170,7 @@
         <option value="$PROJECT_DIR$/collection/src/main/java/set/SetTest.java" />
         <option value="$PROJECT_DIR$/collection/src/main/java/map/MapTest.java" />
         <option value="$PROJECT_DIR$/nio/pom.xml" />
+        <option value="$PROJECT_DIR$/nio/src/main/java/per/yang/nio/PipeExample.java" />
       </list>
     </option>
   </component>
@@ -302,6 +281,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javalearn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="per" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pipe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -326,6 +383,7 @@
       <recent name="per.yang.aop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\Learn\javalearn\nio" />
       <recent name="D:\project\Qunar\javalearn\mybatisLearn\src\main\resources" />
     </key>
   </component>
@@ -937,7 +995,7 @@
       <workItem from="1482150487515" duration="656000" />
       <workItem from="1482502693152" duration="7673000" />
       <workItem from="1482650411996" duration="4066000" />
-      <workItem from="1482893678021" duration="16756000" />
+      <workItem from="1482893678021" duration="17234000" />
     </task>
     <servers />
   </component>
@@ -974,7 +1032,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130310000" />
+    <option name="totallyTimeSpent" value="130788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1000,10 +1058,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4090909" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270548" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4592803" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4592803" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15138593" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15138593" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25746268" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1119,21 +1177,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/collection/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="585" column="0" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Spliterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1550,14 +1593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nio/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1578,6 +1613,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio/src/main/java/per/yang/nio/PipeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io/src/main/java/per/yang/pipe/PipeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
