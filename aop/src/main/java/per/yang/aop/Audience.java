@@ -1,12 +1,7 @@
 package per.yang.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -17,44 +12,43 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class Audience {
 
-//    @Pointcut("execution(* per.yang.aop.Performance.perform(String))" + "&& args(action)")
-    @Pointcut("execution(* per.yang.aop.Performance.perform(..))")
+    @Pointcut("execution(* per.yang.aop.IPerformance.perform(..))")
     public void performance(){}
 
-//    @Before("execution(* per.yang.aop.Performance.perform(..))")
-    @Before("performance()")
-    public void silenceCellPhones(){
-        System.out.println("Slience cell phones");
+//    @Before("performance() && args(action)")
+//    @Before("within(per.yang.aop.*) && args(action)")
+    public void silenceCellPhones(String action){
+        System.out.println(action + ": Slience cell phones");
     }
 //
-////    @Before("execution(* per.yang.aop.Performance.perform(..))")
-//    @Before("performance(String)")
+//    @Before("performance()")
     public void takeSeats(){
         System.out.println("Taking seats");
     }
 //
-////    @AfterReturning("execution(* per.yang.aop.Performance.perform(..))")
-//    @AfterReturning("performance(String)")
+//    @AfterReturning("performance()")
     public void applause(){
         System.out.println("CLAP CLAP CLAP!!!");
     }
 //
-////    @AfterThrowing("execution(* per.yang.aop.Performance.perform(..))")
-    @AfterThrowing("performance()")
+//    @AfterThrowing("performance()")
     public void demandRefund(){
         System.out.println("Demanding a refund");
     }
 
-//    @Around("performance(action)")
+    @Around("performance()" + "&& args(action)")
     public void watchPerformance(ProceedingJoinPoint jp, String action){
         try {
-            silenceCellPhones();
+            silenceCellPhones(action);
             takeSeats();
-            System.out.println(action + action +action);
             jp.proceed();
             applause();
         }catch (Throwable e){
             demandRefund();
         }
     }
+
+
+    @DeclareParents(value = "per.yang.aop.IPerformance+", defaultImpl = DefaultSinger.class)
+    public static ISinger singer;
 }

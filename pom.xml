@@ -11,9 +11,14 @@
     <modules>
         <module>reflect</module>
         <module>proxy</module>
-        <module>mybatisLearn</module>
-        <module>javaio</module>
+        <module>aop</module>
+        <module>io</module>
         <module>thread</module>
+        <module>test</module>
+        <module>stream</module>
+        <module>collection</module>
+        <module>exception</module>
+        <module>nio</module>
     </modules>
 
     <dependencyManagement>
@@ -23,6 +28,16 @@
                 <artifactId>mybatis</artifactId>
                 <version>3.2.3</version>
             </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>19.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.9</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -30,6 +45,15 @@
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
         </dependency>
 
     </dependencies>

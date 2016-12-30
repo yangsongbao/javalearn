@@ -1,10 +1,10 @@
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import per.yang.AppConfig;
-import per.yang.aop.Performance;
+import per.yang.aop.IPerformance;
+import per.yang.aop.ISinger;
 
 import javax.annotation.Resource;
 
@@ -17,10 +17,14 @@ import javax.annotation.Resource;
 public class AopTest {
 
     @Resource(name = "bperformance")
-    private Performance aperformance;
+    private IPerformance aperformance;
 
     @Test
     public void perform(){
+        System.out.println("注入的IPerformance对象是：" + aperformance.getClass());
         aperformance.perform("dance");
+//
+//        ISinger singer = (ISinger)aperformance;
+//        singer.sing();
     }
 }
