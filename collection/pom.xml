@@ -10,7 +10,7 @@
     <artifactId>collection</artifactId>
     <packaging>jar</packaging>
 
-    <name>collection</name>
+    <className>collection</className>
     <url>http://maven.apache.org</url>
 
     <properties>

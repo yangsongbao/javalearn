@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -14,6 +15,8 @@ public class CollectionTest {
         objects.add(5);
         System.out.println(objects);
 
+        HashMap<String, String> hashMap = new HashMap<String, String>();
+        hashMap.put("1", "1");
 
     }
 }

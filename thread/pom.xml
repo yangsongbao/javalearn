@@ -10,7 +10,7 @@
     <artifactId>thread</artifactId>
     <packaging>jar</packaging>
 
-    <name>thread</name>
+    <className>thread</className>
     <url>http://maven.apache.org</url>
 
     <properties>
